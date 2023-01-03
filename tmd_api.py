@@ -1,3 +1,6 @@
+import json
+import requests
+
 def tmd_weather(lat, lon, day, hour, duration):
   url = "https://data.tmd.go.th/nwpapi/v1/forecast/location/hourly/at"
   # querystring = {"lat":lat, "lon":lon, "fields":"tc,rh", "date":"2022-12-03", "hour":hour, "duration":"2"}
