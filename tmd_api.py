@@ -1,5 +1,6 @@
 import json
 import requests
+import pandas as pd
 save_tmd_filename = "tmd_data"
 
 def tmd_weather(lat, lon, day, hour, duration):
