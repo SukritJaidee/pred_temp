@@ -1,0 +1,5 @@
+matplotlib==3.1.3
+mercantile==1.2.1
+pyGeoTile==1.0.6
+meteostat==1.6.5
+pycaret==3.0.0rc6
