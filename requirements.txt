@@ -3,4 +3,4 @@ mercantile==1.2.1
 pyGeoTile==1.0.6
 meteostat==1.6.5
 scikit-learn==0.23.2 
-pycaret==3.0.0rc6
+pycaret[full]==3.0.0rc6
