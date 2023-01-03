@@ -25,7 +25,7 @@ pyod
 pandas-profiling>=2.8.0 
 kmodes>=0.10.1 
 mlflow 
-imbalanced-learn==0.7.0 
+imbalanced-learn>=0.8.1
 scikit-plot 
 Boruta 
 pyyaml<6.0.0 
