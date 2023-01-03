@@ -2,6 +2,19 @@ import pandas as pd
 from meteostat import Point, Daily, Hourly, Stations
 save_x1_filename = "x1_data"
 
+def concat_df(t1, t2):
+  for i in range(t2.shape[0]):
+    if i == 0:
+      t2_temp = pd.DataFrame(t2.iloc[i,:]).T
+      t2_temp.reset_index(inplace=True, drop=True)
+      df_update = pd.concat((t1, t2_temp), axis=1)
+    else:
+      t2_temp = pd.DataFrame(t2.iloc[i,:]).T
+      t2_temp.reset_index(inplace=True, drop=True)
+      df = pd.concat((t1, t2_temp), axis=1)
+      df_update = pd.concat((df_update, df), axis=0, ignore_index=True)
+  return df_update
+
 def near_station(lat, lon):
   stations = Stations()
   stations = stations.nearby(lat, lon)
