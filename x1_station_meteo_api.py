@@ -7,6 +7,16 @@ def near_station(lat, lon):
   stations = stations.nearby(lat, lon)
   station = stations.fetch(10)
   return station
+  
+def add_rtemp(df):
+  df["year"] = df["time"].apply(lambda x: x.year)
+  df["month"] = df["time"].apply(lambda x: x.month)
+  df["day"] = df["time"].apply(lambda x: x.day)
+  df["hour"] = df["time"].apply(lambda x: x.hour)
+  df["minute"] = df["time"].apply(lambda x: x.minute)
+  df.drop(['time'], axis=1, inplace=True)
+  df.dropna(inplace=True)
+  return df
 
 def sel_col_r(q, station_data, start, end):
   df = pd.DataFrame([])
