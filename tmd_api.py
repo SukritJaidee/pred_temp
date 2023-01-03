@@ -9,6 +9,6 @@ def tmd_weather(lat, lon, day, hour, duration):
   headers = { 'accept': "application/json", 'authorization': Bearer, }
   response = requests.request("GET", url, headers=headers, params=querystring)
   data = json.loads(response.text)
-  print(data)
+  # print(data)
   # temd_tmd = data['WeatherForecasts'][0]['forecasts'][0]['data']['tc']
   return data
