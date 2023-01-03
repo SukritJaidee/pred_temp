@@ -29,7 +29,7 @@ imbalanced-learn>=0.8.1
 scikit-plot 
 Boruta 
 pyyaml<6.0.0 
-numba<0.55
+numba>=0.55.0
 shap 
 interpret<=0.2.4 
 tune-sklearn>=0.2.1 
