@@ -52,4 +52,4 @@ fugue>=0.6.5
 boto3 
 azure-storage-blob 
 google-cloud-storage
-pycaret[full]==3.0.0rc6
+pycaret == 3.0.0rc6; extra == "full"
