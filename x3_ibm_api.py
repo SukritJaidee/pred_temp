@@ -50,5 +50,5 @@ def x3_api(q1, start, end, apikey):
     # x3.to_csv(save_x3_filename+'.csv' ,encoding='utf-8-sig')
     # print(x3.shape); display(x3.head(1)); display(x3.tail(1));
     x3.index = x3.index+timedelta(hours=2)
-    print('x3', end = ' '); print(x3.index[0], end = ' '); print(x3.index[-1]);
+    #print('x3', end = ' '); print(x3.index[0], end = ' '); print(x3.index[-1]);
     return x3
