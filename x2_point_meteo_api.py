@@ -54,6 +54,16 @@ def sol_error_x2(q, start, end):
     else:
       result = concat_df(t1, t2)
       return result
+      
+def add_rtemp(df):
+  df["year"] = df["time"].apply(lambda x: x.year)
+  df["month"] = df["time"].apply(lambda x: x.month)
+  df["day"] = df["time"].apply(lambda x: x.day)
+  df["hour"] = df["time"].apply(lambda x: x.hour)
+  df["minute"] = df["time"].apply(lambda x: x.minute)
+  df.drop(['time'], axis=1, inplace=True)
+  df.dropna(inplace=True)
+  return df
 
 def x2_api(q1, start, end):
     x2 = get_data(q1, start, end)
