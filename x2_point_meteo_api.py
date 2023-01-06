@@ -21,7 +21,7 @@ def get_data(q, start, end):
   data['lat'], data['lon'] = data['temp'].map(lambda x: df_temp['lat'][0]), data['temp'].map(lambda x: df_temp['lon'][0])
   return data
   
- def concat_df(t1, t2):
+def concat_df(t1, t2):
   for i in range(t2.shape[0]):
     if i == 0:
       t2_temp = pd.DataFrame(t2.iloc[i,:]).T
