@@ -4,6 +4,12 @@ from datetime import datetime, timedelta, date, tzinfo
 
 save_x2_filename = "x2_data"
 
+def near_station(lat, lon):
+  stations = Stations()
+  stations = stations.nearby(lat, lon)
+  station = stations.fetch(10)
+  return station
+
 def get_data(q, start, end):
   df_temp = pd.DataFrame([])
   df_temp['lat'], df_temp['lon'] = pd.Series(q[0]), pd.Series(q[1])
@@ -13,6 +19,40 @@ def get_data(q, start, end):
   #print(data)
   data['lat'], data['lon'] = data['temp'].map(lambda x: df_temp['lat'][0]), data['temp'].map(lambda x: df_temp['lon'][0])
   return data
+  
+def sel_col_r_x2(q, station_data, start, end):
+  df = pd.DataFrame([])
+  df['lat'], df['lon'] = pd.Series(q[0]), pd.Series(q[1])
+  df_r = station_data[['wmo', 'icao', 'latitude', 'longitude', 'elevation', 'distance']]
+  t2 = Hourly(df_r['wmo'][0], start, end, timezone="Asia/Bangkok")
+  t2 = t2.fetch()
+  t2 = t2[['temp', 'dwpt', 'rhum', 'wdir', 'wspd', 'pres']]
+  t2.reset_index(inplace=True)
+  t2 = add_rtemp(t2)
+  df_r.reset_index(inplace=True, drop=True)
+  t1 = pd.concat([df, df_r], axis=1, join="inner") 
+  if t2.shape[0] == 0: pass
+  else:
+    result = concat_df(t1, t2)
+  return result 
+  
+def sol_error_x2(q, start, end):
+  for k in range(10):
+    df = pd.DataFrame([])
+    station_data = pd.DataFrame(near_station(q[0], q[1]).iloc[k,:]).T
+    df['lat'], df['lon'] = pd.Series(q[0]), pd.Series(q[1])
+    df_r = station_data[['wmo', 'icao', 'latitude', 'longitude', 'elevation', 'distance']]
+    t2 = Hourly(df_r['wmo'][0], start, end, timezone="Asia/Bangkok")
+    t2 = t2.fetch()
+    t2 = t2[['temp', 'dwpt', 'rhum', 'wdir', 'wspd', 'pres']]
+    t2.reset_index(inplace=True)
+    t2 = add_rtemp(t2)
+    df_r.reset_index(inplace=True, drop=True)
+    t1 = pd.concat([df, df_r], axis=1, join="inner")  
+    if t2.shape[0] == 0: k+=1
+    else:
+      result = concat_df(t1, t2)
+      return result
 
 def x2_api(q1, start, end):
     x2 = get_data(q1, start, end)
