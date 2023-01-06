@@ -33,3 +33,24 @@ def x2_api(q1, start, end):
     # print(x2.shape); display(x2.head(1)); display(x2.tail(1));
     # print('x2', end = ' '); print(x2.index[0], end = ' '); print(x2.index[-1]);
     return x2
+    
+def x1_station_x2(q1, start=0, end=1):
+  s1 = near_station(q1[0], q1[1])
+  now_datetime, format_date = datetime.now(pytz.timezone('Asia/Bangkok')),  "%Y-%m-%d %H:%M:%S"
+  start = pd.to_datetime((now_datetime+timedelta(hours=start)).strftime(format_date))
+  end = pd.to_datetime((now_datetime+timedelta(hours=end)).strftime(format_date))
+  try: x1 = sel_col_r_x2(q1, s1, start, end)
+  except: x1 = sol_error_x2(q1, start, end)
+  x1.drop(['wmo', 'icao'], axis=1, inplace=True)
+  x1['distance'] = x1['distance'].apply(lambda x: x/1000)
+  data = []
+  for i in range(x1.shape[0]):
+    data.append(datetime(int(x1['year'][i]), int(x1['month'][i]), int(x1['day'][i]), int(x1['hour'][i]), int(x1['minute'][i])))
+  datetime_df = pd.DataFrame(data, columns = ['datetime'])
+  x1 = pd.concat((datetime_df, x1), axis=1)
+  change_list = ['lat', 'lon', 'latitude','longitude', 'elevation', 'distance', 'temp', 'dwpt', 'rhum', 'wdir', 'wspd', 'year', 'month', 'day', 'hour', 'minute']
+  for col_name in change_list:
+    x1[col_name] =x1[col_name].astype('float32')
+  x1.index = x1['datetime']
+  x1.drop(['datetime'], axis=1, inplace=True)
+  return x1
