@@ -94,7 +94,7 @@ def x4_api(q1, DATE_MIN, DATE_MAX):
     x4['lon'] =x4['lon'].astype('float32')
     x4.rename(columns={'temp_cs':'temp_x4'}, inplace=True)
 
-    x4.to_csv(save_x4_filename+'.csv' ,encoding='utf-8-sig')
+    # x4.to_csv(save_x4_filename+'.csv' ,encoding='utf-8-sig')
     # print(x4.shape); display(x4.head(1)); display(x4.tail(1));
     # print('x4', end = ' '); print(x4.index[0], end = ' '); print(x4.index[-1]);
     return x4

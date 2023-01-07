@@ -83,7 +83,7 @@ def x1_api(q1, start, end):
     x1.index = x1['datetime']
     x1.drop(['datetime'], axis=1, inplace=True)
     x1.rename(columns={'temp':'temp_x1'}, inplace=True)
-    x1.to_csv(save_x1_filename+'.csv' ,encoding='utf-8-sig')
+    # x1.to_csv(save_x1_filename+'.csv' ,encoding='utf-8-sig')
     # print(x1.shape); 
     # display(x1.head(1)); display(x1.tail(1));
     # print('x1', end = ' '); print(x1.index[0], end = ' '); print(x1.index[-1]);
