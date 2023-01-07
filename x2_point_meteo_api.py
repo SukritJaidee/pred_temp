@@ -101,8 +101,13 @@ def x2_api(q1, start, end):
 def x1_station_x2(q1, start=0, end=1):
   s1 = near_station(q1[0], q1[1])
   now_datetime, format_date = datetime.now(pytz.timezone('Asia/Bangkok')),  "%Y-%m-%d %H:%M:%S"
-  start = pd.to_datetime((now_datetime+timedelta(hours=start)).strftime(format_date))
-  end = pd.to_datetime((now_datetime+timedelta(hours=end)).strftime(format_date))
+  
+  # start = pd.to_datetime((now_datetime+timedelta(hours=start)).strftime(format_date))
+  # end = pd.to_datetime((now_datetime+timedelta(hours=end)).strftime(format_date))
+  
+  start = pd.to_datetime((now_datetime+timedelta(start)).strftime(format_date))
+  end = pd.to_datetime((now_datetime+timedelta(end)).strftime(format_date))
+  
   try: x1 = sel_col_r_x2(q1, s1, start, end)
   except: x1 = sol_error_x2(q1, start, end)
   x1.drop(['wmo', 'icao'], axis=1, inplace=True)
