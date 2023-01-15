@@ -19,5 +19,5 @@ def tmd_weather(lat, lon, day, hour, duration):
     df['datatime'] = df['time'].apply(lambda x: x[:10]+' '+x[11:19])
     df.drop(['time', 'data'], axis=1, inplace=True)
     df.index = df['datatime'].astype('datetime64[ns]')
-    df.to_csv(save_tmd_filename+'.csv' ,encoding='utf-8-sig', index=False)
+    # df.to_csv(save_tmd_filename+'.csv' ,encoding='utf-8-sig', index=False)
     return df
