@@ -1,0 +1,4 @@
+mercantile==1.2.1
+meteostat==1.6.5
+mpmath==1.2.1
+pycaret==3.0.0rc8
