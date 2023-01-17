@@ -77,7 +77,7 @@ def deploy_schedule(df, now_datetime, format_date, saved_lr, start_cp):
                 res_update = np.concatenate((res_update_v, res_v), axis=0)
                 res_update = pd.DataFrame(res_update, columns=cols_raw)
             except:
-                print(f'error i ={i}, lat = {q1[0]}, lon = {q1[1]}')
+                print(f'error i ={i}, lat = {round(q1[0],2)}, lon = {round(q1[1],2)}')
     ### calculate
     res1 = res_update.drop(['tc', 'rh', 'datatime'], axis=1)
     res1.columns = cols
