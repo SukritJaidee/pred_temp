@@ -101,8 +101,8 @@ def deploy_schedule(df, now_datetime, format_date, saved_lr, start_cp):
     print('minutes:', min)
     start_cp, end_cp = start_cp.strftime("%d_%m_%Y_%H_%M"), end_cp.strftime("%d_%m_%Y_%H_%M")
     info = pd.DataFrame({'success': [str(success)], 'datetime': [str(start_cp)], 'start_compute': [str(start_cp)], 'end_compute': [str(end_cp)]})
-    info.to_csv('data_v2/' + 'data_' + start_cp + '_info_delta.csv', encoding='utf-8-sig')
-    result.to_csv('data_v2/' + 'data_' + start_cp + '_data_delta.csv', encoding='utf-8-sig')
+    info.to_csv('data_v2/' + 'data_' + start_cp + '_info.csv', encoding='utf-8-sig')
+    result.to_csv('data_v2/' + 'data_' + start_cp + '_data.csv', encoding='utf-8-sig')
     return True
 
 def job_B():
