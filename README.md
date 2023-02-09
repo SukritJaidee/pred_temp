@@ -24,7 +24,10 @@
 4. รันโปรแกรม
 	- ตาราง Program link ที่รันจาก บนเครื่อง local/server
 	
-| FirstName     | LastName      | City     |
+| Filename     | Link      | Note     |
 | ------------- | ------------- | -------- |
-| John          | Test1         | NewYork  |
-| Bob           | Test2         | Toronto  |	
+| python main_pro.py          	| https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py         			| โค้ดนี้ไม่ได้มีการใส่ schedule ให้รันทุกชั่วโมง เป็นการรันครั้งเดียว ณ เวลานั้น  |
+| run_schedule.py           	| https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py         		| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ schedule package โปรแกรมถูกตั้งให้รันทุกๆชั่วโมงในนาทีที่ 5 เข่น 9.05, 10.05   |	
+| run_schedule_v1.py           	| https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py         	| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package   |	
+| run_schedule_v2.py           	| https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v2.py         	| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ timedelta package   |	
+| run_schedule_v3.py           	| https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py         	| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้วิธีการเปรียบเทียบ string datetime  |	
