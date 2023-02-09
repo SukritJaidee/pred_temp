@@ -3,8 +3,8 @@
 	- conda create --name yourenvname python=3.8
 	- ex. conda create --name pycaret_v1 python=3.8
 2. Activate conda environment: activate environment ที่เราสร้างขึ้น
-	conda activate yourenvname
-	ex. conda activate pycaret_v1
+	- conda activate yourenvname
+	- ex. conda activate pycaret_v1
 3. Install pycaret 
 	- หากต้องการใช้ pycaret framework ในการทำนายค่า temperature หากไม่ต้องการให้ข้ามขั้นตอนที่ 3 ไป
 		- pip install pycaret (ติดตั้ง version stable)
