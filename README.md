@@ -22,3 +22,8 @@
 	- cd  pred_temp/
 	- python env_test.py ถ้าไม่ติด error ใดๆแปลว่า การติดตั้งสมบูรณ์
 4. รันโปรแกรม
+	- ตาราง Program link ที่รันจาก บนเครื่อง local/server
+| FirstName     | LastName      | City     |
+| ------------- | ------------- | -------- |
+| John          | Test1         | NewYork  |
+| Bob           | Test2         | Toronto  |	
