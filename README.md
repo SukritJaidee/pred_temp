@@ -35,7 +35,7 @@
 5. ข้อมูลความเร็วในการรันโมเดล
 
 | CPU | Time-consuming | Code |
-| :---         |     :---:      |          ---: |
+| :---:|:---:|:---: |
 | Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
 | Google Colab (pycaret)| 56.28|Main_pro|
 | Google Colab (keras-no gpu)| 48.32|Main_pro|
