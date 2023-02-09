@@ -59,3 +59,15 @@
 6. Resources
 	- My GitHub <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
 	- ผลการรันโปรแกรม (Historical data)  https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing
+
+7. การรันโปรแกรมบน google colab
+	- ดาวน์โหลดไพล์จาก https://github.com/SukritJaidee/pred_temp
+	- Open google colab จาก link ในตารางข้างล่าง
+	- ตาราง program link ที่รันจาก google colab
+	
+	| ชื่อไพล์ | ลิ้ง | หมายเหตุ |
+	| :---:|:---:|:---: |
+	| weather_submit_v1_04025566_1250.ipynb|https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing|- Code นี้ไม่ได้มีการใส่ schedule ให้รันทุกชั่วโมง เป็นการรันครั้งเดียว ณ เวลานั้น <br> เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> ใช้ crontab|
+	| Google Colab (pycaret)| 56.28|Main_pro|
+	| Google Colab (keras-no gpu)| 48.32|Main_pro|
+	| Google Colab (keras gpu)| 43.67|Main_pro|	
