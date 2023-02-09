@@ -63,7 +63,7 @@
 7. การรันโปรแกรมบน google colab
 	- ดาวน์โหลดไพล์จาก https://github.com/SukritJaidee/pred_temp
 	- Open google colab จาก link ในตารางข้างล่าง
-<b><strong>ตาราง program link ที่รันจาก google colab</strong></b>
+	- <b><strong>ตาราง program link ที่รันจาก google colab</strong></b>
 	
 	| ชื่อไพล์ | ลิ้ง | หมายเหตุ |
 	| :---:|:---:|:--- |
