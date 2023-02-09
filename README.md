@@ -44,5 +44,18 @@
 	- รายละเอียดโปรแกรม
 	- เอาต์พุตของโปรแกรม
 	- ประกอบไปด้วย 2 ไพล์ได้แก่ 
-	- data_ddmmyy_hhmm_data.csv ไพล์นี้ประกอบไปด้วย 6 คอลัมน์ ได้แก่ latitude, longitude, prediction(predicted temperature), tc (tmd forecast temperature), temperature (ibm temperature) และ datetime
-	- data_ddmmyy_hhmm_info.csv ไพล์นี้ประกอบไปด้วย 4 คอลัมน์ ได้แก่ datetime, start_compute(เวลาที่เริ่มต้นคำนวณ), end_compute (เวลาที่ใช้จนคำนวณเสร็จสิ้น)
+	- data_ddmmyy_hhmm_data.csv ไพล์นี้ประกอบไปด้วย 6 คอลัมน์ ได้แก่ 
+		1. latitude
+		2. longitude 
+		3. prediction(predicted temperature)
+		4. tc (tmd forecast temperature)
+		5. temperature (ibm temperature)
+		6. datetime
+	- data_ddmmyy_hhmm_info.csv ไพล์นี้ประกอบไปด้วย 4 คอลัมน์ ได้แก่ 
+		1. datetime
+		2. start_compute(เวลาที่เริ่มต้นคำนวณ), 
+		3. end_compute (เวลาที่ใช้จนคำนวณเสร็จสิ้น)
+
+6. Resources
+	- My GitHub: <p><a href="https://github.com/SukritJaidee/pred_temp">Click here</a></p>
+	- ผลการรันโปรแกรม (Historical data)  https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing
