@@ -57,5 +57,5 @@
 		3. end_compute (เวลาที่ใช้จนคำนวณเสร็จสิ้น)
 
 6. Resources
-	- My GitHub: <p><a href="https://github.com/SukritJaidee/pred_temp">Click here</a></p>
+	- My GitHub <p><a href="https://github.com/SukritJaidee/pred_temp">Click here</a></p>
 	- ผลการรันโปรแกรม (Historical data)  https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing
