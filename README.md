@@ -69,5 +69,13 @@
 	| :---:|:---:|:--- |
 	| weather_submit_v1<br>_04025566_1250.ipynb|<p><a href="https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing">weather_submit_v1<br>_04025566_1250.py</a></p>| - Code นี้ไม่ได้มีการใส่ schedule ให้รันทุกชั่วโมง เป็นการรันครั้งเดียว ณ เวลานั้น <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - ใช้ crontab|
 	| weather_schedule_v3<br>_07022566_0949.ipynb|<p><a href="https://colab.research.google.com/drive/1njNxGtyAwKQsiRqt9ypwwqW58B_iUfGk?usp=sharing">weather_schedule_v3<br>_07022566_0949.py</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br>- running <br>|
-	| Google Colab (keras-no gpu)| 48.32|Main_pro|
+	| weather_schedule_v2_07022566_1228.ipynb| 48.32|Main_pro|
+	| Google Colab (keras gpu)|https://colab.research.google.com/drive/1Hph2GJnLzXHbnmkrJTeFBiLE65w3ygmc?usp=sharing|เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใช้ timedelta¸ replace
+- เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล
+- running
+|	
+	| Google Colab (keras gpu)| 43.67|Main_pro|	
+	| Google Colab (keras gpu)| 43.67|Main_pro|	
+	| Google Colab (keras gpu)| 43.67|Main_pro|	
+	| Google Colab (keras gpu)| 43.67|Main_pro|	
 	| Google Colab (keras gpu)| 43.67|Main_pro|	
