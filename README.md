@@ -31,3 +31,12 @@
 |run_schedule_v1.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package|	
 |run_schedule_v2.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v2.py">run_schedule_v2.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ timedelta package|	
 |run_schedule_v3.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้วิธีการเปรียบเทียบ string datetime|	
+
+5. ข้อมูลความเร็วในการรันโมเดล
+
+| CPU | Time-consuming | Code |
+| :---         |     :---:      |          ---: |
+| Intel(R) Core(TM) i7-10750H CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
+| Google Colab (pycaret)| 56.28|Main_pro|
+| Google Colab (keras-no gpu)| 48.32|Main_pro|
+| Google Colab (keras gpu)| 43.67|Main_pro|
