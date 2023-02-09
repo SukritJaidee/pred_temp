@@ -34,15 +34,15 @@
 
 5. ข้อมูลความเร็วในการรันโมเดล
 
-| CPU | Time-consuming | Code |
-| :---:|:---:|:---: |
-| Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
-| Google Colab (pycaret)| 56.28|Main_pro|
-| Google Colab (keras-no gpu)| 48.32|Main_pro|
-| Google Colab (keras gpu)| 43.67|Main_pro|
+	| CPU | Time-consuming | Code |
+	| :---:|:---:|:---: |
+	| Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
+	| Google Colab (pycaret)| 56.28|Main_pro|
+	| Google Colab (keras-no gpu)| 48.32|Main_pro|
+	| Google Colab (keras gpu)| 43.67|Main_pro|
 
 	- รายละเอียดโปรแกรม
 	- เอาต์พุตของโปรแกรม
 	- ประกอบไปด้วย 2 ไพล์ได้แก่ 
-	- data_ddmmyy_hhmm_data.csv ไพล์นี้ประกอบไปด้วย 6 คอลัมน์ได้แก่ latitude, longitude, prediction(predicted temperature), tc (tmd forecast temperature), temperature (ibm temperature) และ datetime
-	- data_ddmmyy_hhmm_info.csv ไพล์นี้ประกอบไปด้วย 4 คอลัมน์ได้แก่ datetime, start_compute(เวลาที่เริ่มต้นคำนวณ), end_compute (เวลาที่ใช้จนคำนวณเสร็จสิ้น)
+	- data_ddmmyy_hhmm_data.csv ไพล์นี้ประกอบไปด้วย 6 คอลัมน์ ได้แก่ latitude, longitude, prediction(predicted temperature), tc (tmd forecast temperature), temperature (ibm temperature) และ datetime
+	- data_ddmmyy_hhmm_info.csv ไพล์นี้ประกอบไปด้วย 4 คอลัมน์ ได้แก่ datetime, start_compute(เวลาที่เริ่มต้นคำนวณ), end_compute (เวลาที่ใช้จนคำนวณเสร็จสิ้น)
