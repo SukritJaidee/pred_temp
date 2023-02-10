@@ -34,6 +34,6 @@ def get_level10_pos():
           x_list.append(x); y_list.append(y);
           lon_west.append(lat_lon[0]); lat_south.append(lat_lon[1]);
           lon_east.append(lat_lon[2]); lat_north.append(lat_lon[3]);
-    df = pd.DataFrame({'lon_west': lon_west, 'lat_north':lat_north, 'lat_south':lat_south, 'lon_east':lon_east})
+    df = pd.DataFrame({'lon_west': lon_west, 'lat_north':lat_north, 'lat_south':lat_south, 'lon_east':lon_east, 'x_tiles':x_list, 'y_tiles':y_list})
     print(df.shape); print(df.head(1));
     return df
