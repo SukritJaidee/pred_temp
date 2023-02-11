@@ -82,4 +82,6 @@ If you want to donate coffee to me, you can donate via the QR code below.
   src="https://lh3.googleusercontent.com/jVQJ05vvguKpKAbkyqGMXMWZa2Tv8HQN3mk63Nz4-8U_2LqclnPj9IzUN14iSkDG91k=w2400"
   alt="Alt text"
   title="Optional title"
+  width="250"
+  high="250"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
