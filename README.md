@@ -78,4 +78,8 @@
 	| Training_<br>04022566_2028.ipynb|<p><a href="https://colab.research.google.com/drive/16in5kpmcy4t-colTDOi7eOKunMI5tv2k?usp=sharing">Training_<br>04022566_2028.py</a></p>| - Main Code for trainng|	
 
 If you want to donate coffee to me, you can donate via the QR code below.
-![My Remote Image](https://lh3.googleusercontent.com/jVQJ05vvguKpKAbkyqGMXMWZa2Tv8HQN3mk63Nz4-8U_2LqclnPj9IzUN14iSkDG91k=w2400, style="display: inline-block; margin: 0 auto; max-width: 300px")
+<img
+  src="https://lh3.googleusercontent.com/jVQJ05vvguKpKAbkyqGMXMWZa2Tv8HQN3mk63Nz4-8U_2LqclnPj9IzUN14iSkDG91k=w2400"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
