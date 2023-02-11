@@ -58,9 +58,9 @@
 
 6. Resources
 	- My GitHub <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
-	- ผลการรันโปรแกรม (Historical data)  https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing
-	- Training data <a href="https://github.com/SukritJaidee/pred_temp](https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">Click here</a>
-	- pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">download</a>
+	- ผลการรันโปรแกรม (Historical data) : <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">view here</a>
+	- Training data <a href="https://github.com/SukritJaidee/pred_temp](https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">download here</a>
+	- pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">download here</a>
 
 7. การรันโปรแกรมบน google colab
 	- ดาวน์โหลดไพล์จาก https://github.com/SukritJaidee/pred_temp
