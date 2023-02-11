@@ -77,6 +77,8 @@
 	| weather_backup_<br>17012566_2119.ipynb|<p><a href="https://colab.research.google.com/drive/1TdUTEecJV7iTOKKQOv5uH6tRip7Mh92_?usp=sharing">weather_backup_<br>17012566_2119.py</a></p>| - ไพล์เก็บ backup/helping code|	
 	| Training_<br>04022566_2028.ipynb|<p><a href="https://colab.research.google.com/drive/16in5kpmcy4t-colTDOi7eOKunMI5tv2k?usp=sharing">Training_<br>04022566_2028.py</a></p>| - Main Code for trainng|	
 
+- Phase2 : <p><a href="https://colab.research.google.com/drive/11Ft7moDQ0XLUoUYI70bCLapZtzy3tOCI?usp=sharing">Phase2_backup_04022566_1503.ipynb</a></p>
+
 - If you want to donate coffee to me, you can donate via the QR code below. </br>
 
 <img
