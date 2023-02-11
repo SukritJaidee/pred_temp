@@ -86,3 +86,4 @@
   width="250"
   high="250"
   style="display: margin: 0 auto; max-width: 300px">
+  - Thank you 
