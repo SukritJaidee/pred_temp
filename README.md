@@ -76,3 +76,6 @@
 	| weather_schedule_v5<br>_17012566_2243.ipynb|<p><a href="https://colab.research.google.com/drive/18C98Jv7HjBfLt7JonwTJtRQrd2fqQVes?usp=sharing">weather_schedule_v5<br>_17012566_2243.py</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ schedule package โปรแกรมถูกตั้งให้รันทุกๆชั่วโมงในนาทีที่ 5 เข่น 9.05, 10.05|	
 	| weather_backup_<br>17012566_2119.ipynb|<p><a href="https://colab.research.google.com/drive/1TdUTEecJV7iTOKKQOv5uH6tRip7Mh92_?usp=sharing">weather_backup_<br>17012566_2119.py</a></p>| - ไพล์เก็บ backup/helping code|	
 	| Training_<br>04022566_2028.ipynb|<p><a href="https://colab.research.google.com/drive/16in5kpmcy4t-colTDOi7eOKunMI5tv2k?usp=sharing">Training_<br>04022566_2028.py</a></p>| - Main Code for trainng|	
+
+If you want to donate coffee to me, you can donate via the QR code below.
+![My Remote Image](https://lh3.googleusercontent.com/jVQJ05vvguKpKAbkyqGMXMWZa2Tv8HQN3mk63Nz4-8U_2LqclnPj9IzUN14iSkDG91k=w2400)
