@@ -1,1 +1,73 @@
-
+### X1
+lat:x1_meteo
+lon:x1_meteo
+latitude:x1_meteo
+longitude:x1_meteo
+elevation:x1_meteo
+distance:x1_meteo
+temp:x1_meteo
+dwpt:x1_meteo
+rhum:x1_meteo
+wdir:x1_meteo
+wspd:x1_meteo
+year:x1_meteo
+month:x1_meteo
+day:x1_meteo
+hour:x1_meteo
+minute:x1_meteo
+### X2
+temp.1:x2_meteo
+dwpt.1:x2_meteo
+rhum.1:x2_meteo
+wdir.1:x2_meteo
+wspd.1:x2_meteo
+pres:x2_meteo
+lat.1:x2_meteo
+lon.1:x2_meteo
+year.1:x2_meteo
+month.1:x2_meteo
+day.1:x2_meteo
+hour.1:x2_meteo
+minute.1:x2_meteo
+### X3
+requestedLatitude:x3_ibm
+requestedLongitude:x3_ibm
+latitude.1:x3_ibm
+longitude.1:x3_ibm
+precip1Hour:x3_ibm
+precip6Hour:x3_ibm
+precip24Hour:x3_ibm
+pressureChange:x3_ibm
+pressureMeanSeaLevel:x3_ibm
+relativeHumidity:x3_ibm
+temperature:x3_ibm
+temperatureChange24Hour:x3_ibm
+temperatureMax24Hour:x3_ibm
+temperatureMin24Hour:x3_ibm
+temperatureDewPoint:x3_ibm
+temperatureFeelsLike:x3_ibm
+uvIndex:x3_ibm
+visibility:x3_ibm
+windDirection:x3_ibm
+windSpeed:x3_ibm
+lat.2:x3_ibm
+lon.2:x3_ibm
+### X4
+lats: x4_weather_api
+lons: x4_weather_api
+temp_cs: x4_weather_api
+wind_kphs: x4_weather_api
+wind_degrees: x4_weather_api
+wind_dirs: x4_weather_api
+pressure_mbs: x4_weather_api
+precip_mms: x4_weather_api
+humiditys: x4_weather_api
+clouds: x4_weather_api
+feelslike_cs: x4_weather_api
+windchill_cs: x4_weather_api
+heatindex_cs: x4_weather_api
+dewpoint_cs: x4_weather_api
+will_it_rains: x4_weather_api
+chance_of_rains: x4_weather_api
+vis_kms: x4_weather_api
+gust_kphs: x4_weather_api
