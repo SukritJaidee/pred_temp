@@ -84,7 +84,7 @@
 - If you want to donate coffee to me, you can donate via the QR code below. </br>
 
 <img
-  src="https://lh3.googleusercontent.com/jVQJ05vvguKpKAbkyqGMXMWZa2Tv8HQN3mk63Nz4-8U_2LqclnPj9IzUN14iSkDG91k=w2400"
+  src="https://lh6.googleusercontent.com/4Dni4jkpIs0L_iFNIC7jGFMryoqNS3E74qym_9pLkiyta5W8Jkz41yvTVqk8Nc8CxXc=w2400"
   alt="Alt text"
   title="If you want to donate coffee to me, you can donate via the QR code below."
   width="250"
