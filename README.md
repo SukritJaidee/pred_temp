@@ -53,7 +53,7 @@
 			2. start_compute(Calculation start time), 
 			3. end_compute (Time taken to complete the calculation)
 ### My Resources
-	- <p><a href="https://github.com/SukritJaidee/pred_temp">Click here</a></p>
+	<p><a href="https://github.com/SukritJaidee/pred_temp">Click here</a></p>
 	- Result data (Historical data): <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">Download here</a>
 	- Training data <a href="https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">Download here</a>
 	- Pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">Download here</a>
