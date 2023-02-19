@@ -32,7 +32,7 @@
 
 ### My Google colab Code
 <b><ins>Table2 My Google colab Code</ins></b>
-| **file** | **Note** |
+| **Google colab file** | **Note** |
 |:---|:--- |
 |<p><a href="https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing">**weather_submit_v1_04025566_1250.ipynb**</a></p>|for linux crontab|
 |<p><a href="https://colab.research.google.com/drive/1njNxGtyAwKQsiRqt9ypwwqW58B_iUfGk?usp=sharing">**weather_schedule_v3_07022566_0949.ipynb**</a></p>| It is run on a schedule every hour using the **BlockingScheduler** package|
@@ -71,18 +71,18 @@
 - Training data <a href="https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">Download here</a>
 - Pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">Download here</a>
 	
-		
+### Phase2
+	- <p><a href="https://colab.research.google.com/drive/11Ft7moDQ0XLUoUYI70bCLapZtzy3tOCI?usp=sharing">Phase2_backup_04022566_1503.ipynb</a></p>
 
-
-- Phase2 <p><a href="https://colab.research.google.com/drive/11Ft7moDQ0XLUoUYI70bCLapZtzy3tOCI?usp=sharing">Phase2_backup_04022566_1503.ipynb</a></p>
-
+### Donate
 - If you want to donate coffee to me, you can donate via the QR code below. </br>
 
-<img
-  src="https://lh6.googleusercontent.com/4Dni4jkpIs0L_iFNIC7jGFMryoqNS3E74qym_9pLkiyta5W8Jkz41yvTVqk8Nc8CxXc=w2400"
-  alt="Alt text"
-  title="If you want to donate coffee to me, you can donate via the QR code below."
-  width="250"
-  high="250"
-  style="display: margin: 0 auto; max-width: 300px">
-  - Thank you 
+	<img
+	  src="https://lh6.googleusercontent.com/4Dni4jkpIs0L_iFNIC7jGFMryoqNS3E74qym_9pLkiyta5W8Jkz41yvTVqk8Nc8CxXc=w2400"
+	  alt="Alt text"
+	  title="If you want to donate coffee to me, you can donate via the QR code below."
+	  width="250"
+	  high="250"
+	  style="display: margin: 0 auto; max-width: 300px">
+	  
+### **Thank you** 
