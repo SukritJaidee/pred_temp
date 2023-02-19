@@ -81,4 +81,4 @@
 	  width="250" high="250" style="display: margin: 0 auto; max-width: 300px">
 	  
 ### **Thank you** 
-
+- Jeffrey M. Gawrych, Senior Solutions Engineer/Meteorologist, IBM Sustainability Software for sharing IBM Weather Company Data
