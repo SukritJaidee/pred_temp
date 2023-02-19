@@ -53,19 +53,19 @@
 			2. start_compute(Calculation start time), 
 			3. end_compute (Time taken to complete the calculation)
 ### My Resources
-	<p><a href="https://github.com/SukritJaidee/pred_temp">Click here</a></p>
-	- Result data (Historical data): <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">Download here</a>
-	- Training data <a href="https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">Download here</a>
-	- Pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">Download here</a>
+- My Github: <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
+- Result data (Historical data): <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">Download here</a>
+- Training data <a href="https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">Download here</a>
+- Pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">Download here</a>
 	
 ### My Google colab Code
 <b><ins>Table3 My Google colab Code</ins></b>
-| ชื่อไพล์ | ลิ้ง | หมายเหตุ |
-| :---|:---:|:--- |
-| weather_submit_v1<br>_04025566_1250.ipynb|<p><a href="https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing">weather_submit_v1<br>_04025566_1250.py</a></p>| - Code นี้ไม่ได้มีการใส่ schedule ให้รันทุกชั่วโมง เป็นการรันครั้งเดียว ณ เวลานั้น <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - ใช้ Linux crontab|
-| weather_schedule_v3<br>_07022566_0949.ipynb|<p><a href="https://colab.research.google.com/drive/1njNxGtyAwKQsiRqt9ypwwqW58B_iUfGk?usp=sharing">weather_schedule_v3<br>_07022566_0949.py</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br>- running <br>|
-| weather_schedule_v2<br>_07022566_1228.ipynb|<p><a href="https://colab.research.google.com/drive/1Hph2GJnLzXHbnmkrJTeFBiLE65w3ygmc?usp=sharing">weather_schedule_v2<br>_07022566_1228.py</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใช้ timedelta¸ replace <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - running <br>|	
-| weather_schedule_v4<br>_07022566_2566.ipynb|<p><a href="https://colab.research.google.com/drive/1CroHoo--kFfY_oxd4pHTarCiaBKOcTLQ?usp=sharing">weather_schedule_v4<br>_07022566_2566.py</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้วิธีการเปรียบเทียบ string datetime <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - running <br>|	
+| **file** | **Note** |
+|:---|:--- |
+||<p><a href="https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing">**weather_submit_v1_04025566_1250.ipynb**</a></p>| - Code นี้ไม่ได้มีการใส่ schedule ให้รันทุกชั่วโมง เป็นการรันครั้งเดียว ณ เวลานั้น <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - ใช้ Linux crontab|
+||<p><a href="https://colab.research.google.com/drive/1njNxGtyAwKQsiRqt9ypwwqW58B_iUfGk?usp=sharing">**weather_schedule_v3_07022566_0949.ipynb**</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br>- running <br>|
+||<p><a href="https://colab.research.google.com/drive/1Hph2GJnLzXHbnmkrJTeFBiLE65w3ygmc?usp=sharing">**weather_schedule_v2_07022566_1228.ipynb**</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใช้ timedelta¸ replace <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - running <br>|	
+||<p><a href="https://colab.research.google.com/drive/1CroHoo--kFfY_oxd4pHTarCiaBKOcTLQ?usp=sharing">**weather_schedule_v4_07022566_2566.ipynb**</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้วิธีการเปรียบเทียบ string datetime <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - running <br>|	
 | weather_schedule_v5<br>_17012566_2243.ipynb|<p><a href="https://colab.research.google.com/drive/18C98Jv7HjBfLt7JonwTJtRQrd2fqQVes?usp=sharing">weather_schedule_v5<br>_17012566_2243.py</a></p>| - เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ schedule package โปรแกรมถูกตั้งให้รันทุกๆชั่วโมงในนาทีที่ 5 เข่น 9.05, 10.05|
 | weather_backup_<br>17012566_2119.ipynb|<p><a href="https://colab.research.google.com/drive/1TdUTEecJV7iTOKKQOv5uH6tRip7Mh92_?usp=sharing">weather_backup_<br>17012566_2119.py</a></p>| - ไพล์เก็บ backup/helping code|	
 | Training_<br>04022566_2028.ipynb|<p><a href="https://colab.research.google.com/drive/16in5kpmcy4t-colTDOi7eOKunMI5tv2k?usp=sharing">Training_<br>04022566_2028.py</a></p>| - Main Code for trainng|	
