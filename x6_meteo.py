@@ -19,7 +19,7 @@ def open_meteo_v1(latitude, longitude, start_date, end_date):
   response = requests.request("GET", url, headers=headers, data=payload)
   print('response', response)
   data = json.loads(response.text)
-  rint('data', data)
+  print('data', data)
   lat, lon = data['latitude'], data['longitude']
   elevation = data['elevation']
   time_list = data['hourly']['time']
