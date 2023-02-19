@@ -65,6 +65,10 @@
 			1. datetime,
 			2. start_compute(Calculation start time), 
 			3. end_compute (Time taken to complete the calculation)
+### Result
+
+
+
 ### My Resources
 - My Github: <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
 - Result data (Historical data): <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">Download here</a>
@@ -82,3 +86,6 @@
 	  
 ### **Thank you** 
 	- Jeffrey M. Gawrych, Senior Solutions Engineer/Meteorologist, IBM Sustainability Software for sharing IBM Weather Company Data
+
+### Reference
+	- 
