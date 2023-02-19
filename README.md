@@ -101,6 +101,8 @@
 	- Chulalongkorn university
 
 ### Reference
+	- https://dev.meteostat.net/
+	- https://www.ibm.com/products/weather-company-data-packages
 	- 
 ### Donate
 - If you want to donate coffee to me, you can donate via the QR code below. </br>
