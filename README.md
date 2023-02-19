@@ -52,18 +52,14 @@
 			1. datetime,
 			2. start_compute(Calculation start time), 
 			3. end_compute (Time taken to complete the calculation)
-
-6. Resources
-	- My GitHub <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
-	- ผลการรันโปรแกรม (Historical data) : <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">view here</a>
-	- Training data <a href="https://github.com/SukritJaidee/pred_temp](https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">download here</a>
-	- pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">download here</a>
-
-7. การรันโปรแกรมบน google colab
-	- ดาวน์โหลดไพล์จาก https://github.com/SukritJaidee/pred_temp
-	- Open google colab จาก link ในตารางข้างล่าง
-	- <b><strong>ตาราง program link ที่รันจาก google colab</strong></b>
+### My Resources
+	- My GitHub: <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
+	- Result data (Historical data): <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">Download here</a>
+	- Training data <a href="https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">Download here</a>
+	- Pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">Download here</a>
 	
+### My Google colab Code
+<b><ins>Table3 My Google colab Code</ins></b>
 	| ชื่อไพล์ | ลิ้ง | หมายเหตุ |
 	| :---|:---:|:--- |
 	| weather_submit_v1<br>_04025566_1250.ipynb|<p><a href="https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing">weather_submit_v1<br>_04025566_1250.py</a></p>| - Code นี้ไม่ได้มีการใส่ schedule ให้รันทุกชั่วโมง เป็นการรันครั้งเดียว ณ เวลานั้น <br> - เพิ่มการ predict ด้วย keras model เพื่อลดเวลาการประมวลผล <br> - ใช้ Linux crontab|
