@@ -76,8 +76,8 @@
     </thead>
     <tbody>
         <tr>
-            <td align="center"><img src="https://lh6.googleusercontent.com/9AVa0E2Prsctlfxa67_uoD3MQALGT5bF5Q_hBlr1noJ1mlKiz83Z5xHI4rQFT1FOfVo=w2400" width="400" high="300" style="display: margin: 0 auto; max-width: 400px"></td>
-            <td align="center"><img src="https://lh4.googleusercontent.com/rySKw7SUG6AicwbMqcFQ16FH9Nc0IYvonubmdVQN6zg4KKcoPMirUsW9fRhILRHz0o8=w2400" width="400" high="300" style="display: margin: 0 auto; max-width: 400px"></td>
+            <td align="center"><img src="https://lh6.googleusercontent.com/9AVa0E2Prsctlfxa67_uoD3MQALGT5bF5Q_hBlr1noJ1mlKiz83Z5xHI4rQFT1FOfVo=w2400" width="400" high="250" style="display: margin: 0 auto; max-width: 400px"></td>
+            <td align="center"><img src="https://lh4.googleusercontent.com/rySKw7SUG6AicwbMqcFQ16FH9Nc0IYvonubmdVQN6zg4KKcoPMirUsW9fRhILRHz0o8=w2400" width="400" high="250" style="display: margin: 0 auto; max-width: 400px"></td>
         </tr>
         <tr>
             <td align="center"><img src="https://lh5.googleusercontent.com/R6ytHZu6ekc1GtoSYcPAD5nd2bhr4Ly1JrzD4l68hI4RotHBb4u9rJths_upmnJ-xpc=w2400" width="600" high="300" style="display: margin: 0 auto; max-width: 600px"></td>
