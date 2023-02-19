@@ -92,18 +92,15 @@
 - Result data (Historical data): <a href="https://drive.google.com/drive/folders/1IjGllgAneG-dWDKNAOAu-E80tBzgORRw?usp=sharing">Download here</a>
 - Training data <a href="https://drive.google.com/file/d/1M-6o2ovKUzw2vFWTmE7T1Uo2NZPm2PK7/view?usp=sharing">Download here</a>
 - Pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">Download here</a>
-	
 ### Phase2
 - <p><a href="https://colab.research.google.com/drive/11Ft7moDQ0XLUoUYI70bCLapZtzy3tOCI?usp=sharing">Phase2_backup_04022566_1503.ipynb</a></p>
-	  
 ### **Thank you** 
 	- Jeffrey M. Gawrych, Senior Solutions Engineer/Meteorologist, IBM Sustainability Software for sharing IBM Weather Company Data
 	- Chulalongkorn university
-
 ### Reference
 	- https://dev.meteostat.net/
 	- https://www.ibm.com/products/weather-company-data-packages
-	- 
+	- https://www.weatherapi.com/
 ### Donate
 - If you want to donate coffee to me, you can donate via the QR code below. </br>
 	<img
