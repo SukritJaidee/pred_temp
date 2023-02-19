@@ -22,7 +22,7 @@
 	
 ### Source code
 <b><ins>Table1 Python files</ins></b>
-| **Link** | **Note** |
+| **Link** | **Usage** |
 | -------- | -------- |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py">run_schedule.py</a></p>| It is run on a schedule every hour by using the schedule package. The program is set to run in the 5th minute of every hour, for example, at 9.05 and 10.05.|	
@@ -32,7 +32,7 @@
 
 ### My Google colab Code
 <b><ins>Table2 My Google colab Code</ins></b>
-| **Google colab file** | **Note** |
+| **Google colab file** | **Usage** |
 |:---|:--- |
 |<p><a href="https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing">**weather_submit_v1_04025566_1250.ipynb**</a></p>|for linux crontab|
 |<p><a href="https://colab.research.google.com/drive/1njNxGtyAwKQsiRqt9ypwwqW58B_iUfGk?usp=sharing">**weather_schedule_v3_07022566_0949.ipynb**</a></p>| It is run on a schedule every hour using the <ins>**BlockingScheduler**</ins> package|
