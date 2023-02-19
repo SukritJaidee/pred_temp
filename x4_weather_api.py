@@ -32,6 +32,7 @@ def weather_history(lat, lon, DATE_MIN, DATE_MAX):
       response = requests.request("GET", url, headers=headers, data=payload)
       print(response)
       data = json.loads(response.text)  
+      print(data)
       A = data['forecast']['forecastday'][0]['hour']
       for k in range(24):
         timex =    A[k]['time']
