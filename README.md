@@ -53,7 +53,7 @@
 | Google Colab (keras gpu)| 43.67|Main_pro|
 
 ### Proposed method
-This system is made to predict the temperature at every point throughout Thailand. 
+This system is made to predict the temperature at every point throughout Thailand. Model inputs come from three weather sources: Meteostat, Weatherapi, and IBM.
 <p align="center"><img src="https://lh6.googleusercontent.com/crkxhHoA23xNII1z2PtwqGt39-6hP2j_XAZbQbqB9a1ree4hYwzjOUaRIghrNmxZHko=w2400"
 	  width="600" high="400" style="display: margin: 0 auto; max-width: 600px"></p>
 
