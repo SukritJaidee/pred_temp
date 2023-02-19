@@ -111,7 +111,7 @@
     <tbody>
         <tr>
             <td align="center"><img src="https://lh6.googleusercontent.com/XuS3agx_n58vLcBdjKQn14FObZwhBPy5wut0BobBD7DFoPMI9f_kfBxZf-ukGSONr_k=w2400" width="100" high="100"</td>
-            <td align="center"><img src="https://lh5.googleusercontent.com/vHmVZoHAhWC_ccqP0-uPCfJuAsO9eRSuChmjmMroAmy7wETtrIHohPVJ5ECZSM1O_JI=w2400" width="50" high="50"</td>
+            <td align="center"><img src="https://lh5.googleusercontent.com/vHmVZoHAhWC_ccqP0-uPCfJuAsO9eRSuChmjmMroAmy7wETtrIHohPVJ5ECZSM1O_JI=w2400" width="100" high="100"</td>
             <td align="center"><img src="https://lh3.googleusercontent.com/GsHUDDRy4iFPXC7spDw83Z7lHGlgGxoEul2Or9pz5NxvgbKw-jXj4HUnIAU2na3qDQk=w2400" width="50" high="50"</td>
 	    <td align="center"><img src="https://lh3.googleusercontent.com/QS1-xPUYM_6Dsk4PLS2On9KFGa_SOnIfQgyc_LDMD0Y6HHIP2hV5dCU1B3rDQrfclec=w2400" width="50" high="50"</td>
         </tr>
