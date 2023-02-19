@@ -21,7 +21,7 @@
 	- python env_test.py 
 	
 ### Source code
-<b><p><ins>Table1 Python files</ins></p></b>
+<b><ins>Table1 Python files</ins></b>
 | **Link** | **Note** |
 | -------- | -------- |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
@@ -31,7 +31,7 @@
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| It runs a schedule every hour using a string datetime comparison method.|	
 
 ### Speed performance
-<b><p>Table2 Speed Performance </p></b>
+<b><ins>Table2 Speed Performance</ins></b>
 | **CPU** | **Time-consuming** | **Code** |
 |:---:|:---:|:---: |
 | Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
