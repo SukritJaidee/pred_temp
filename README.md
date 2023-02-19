@@ -130,7 +130,3 @@ This system is made to predict the temperature at every point throughout Thailan
 	- https://www.ibm.com/products/weather-company-data-packages
 	- https://www.weatherapi.com/
 	- https://www.tmd.go.th/
-### Donate
-	- If you want to donate coffee to me, you can do so via the QR code below.
-<p align="center"><img src="https://lh6.googleusercontent.com/4Dni4jkpIs0L_iFNIC7jGFMryoqNS3E74qym_9pLkiyta5W8Jkz41yvTVqk8Nc8CxXc=w2400"
-	  width="250" high="250" style="display: margin: 0 auto; max-width: 300px"></p>
