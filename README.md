@@ -16,11 +16,12 @@
 	- pip install -q mpmath
 	- pip install -q APScheduler==3.0.0 (There is no need to install the library when using Linux crontab.)
 	- pip install tensorflow-gpu
-3. ขั้นตอนการทดสอบการติดตั้ง environment
+### How to run the program
 	- cd  pred_temp/
-	- python env_test.py ถ้าไม่ติด error ใดๆแปลว่า การติดตั้งสมบูรณ์
-4. รันโปรแกรม
-	- ตาราง Program link ที่รันจาก บนเครื่อง local/server
+	- python env_test.py 
+	
+### Source code
+	- <u><p>python files Table</p></u>
 	
 | Filename     | Link      | Note     |
 | ------------- | ------------- | -------- |
