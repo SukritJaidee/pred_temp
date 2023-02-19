@@ -32,9 +32,9 @@ def weather_history(lat, lon, DATE_MIN, DATE_MAX):
       url = f"http://api.weatherapi.com/v1/forecast.json?key={API_KEY}&q={lat},{lon}&dt={date}"
 #       url = f"http://api.weatherapi.com/v1/history.json?key={API_KEY}&q={lat},{lon}&dt={date}"
       response = requests.request("GET", url, headers=headers, data=payload)
-      print(response)
+#       print(response)
       data = json.loads(response.text)  
-      print(data)
+#       print(data)
       A = data['forecast']['forecastday'][0]['hour']
       for k in range(24):
         timex =    A[k]['time']
