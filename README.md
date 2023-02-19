@@ -72,17 +72,13 @@
 - Pre-trained model <a href="https://drive.google.com/file/d/1gDv4Q0msQvMPhq-3rqcTSdXqs32tGsNR/view?usp=sharing">Download here</a>
 	
 ### Phase2
-	- <p><a href="https://colab.research.google.com/drive/11Ft7moDQ0XLUoUYI70bCLapZtzy3tOCI?usp=sharing">Phase2_backup_04022566_1503.ipynb</a></p>
+- <p><a href="https://colab.research.google.com/drive/11Ft7moDQ0XLUoUYI70bCLapZtzy3tOCI?usp=sharing">Phase2_backup_04022566_1503.ipynb</a></p>
 
 ### Donate
 - If you want to donate coffee to me, you can donate via the QR code below. </br>
-
 	<img
 	  src="https://lh6.googleusercontent.com/4Dni4jkpIs0L_iFNIC7jGFMryoqNS3E74qym_9pLkiyta5W8Jkz41yvTVqk8Nc8CxXc=w2400"
-	  alt="Alt text"
-	  title="If you want to donate coffee to me, you can donate via the QR code below."
-	  width="250"
-	  high="250"
-	  style="display: margin: 0 auto; max-width: 300px">
+	  width="250" high="250" style="display: margin: 0 auto; max-width: 300px">
 	  
 ### **Thank you** 
+
