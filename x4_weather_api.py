@@ -29,7 +29,8 @@ def weather_history(lat, lon, DATE_MIN, DATE_MAX):
     try:
       date = date.date()
       payload, headers={}, {}
-      url = f"http://api.weatherapi.com/v1/history.json?key={API_KEY}&q={lat},{lon}&dt={date}"
+      url = f"http://api.weatherapi.com/v1/forecast.json?key={API_KEY}&q={lat},{lon}&dt={date}"
+#       url = f"http://api.weatherapi.com/v1/history.json?key={API_KEY}&q={lat},{lon}&dt={date}"
       response = requests.request("GET", url, headers=headers, data=payload)
       print(response)
       data = json.loads(response.text)  
