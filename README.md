@@ -22,7 +22,6 @@
 	
 ### Source code
 <b><p>Python files Table</p></b>
-	
 | **Link**      | **Note**     |
 | ------------- | -------- |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
@@ -32,12 +31,14 @@
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| It runs a schedule every hour using a string datetime comparison method.|	
 
 ### Speed performance
-	| CPU | Time-consuming | Code |
-	| :---:|:---:|:---: |
-	| Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
-	| Google Colab (pycaret)| 56.28|Main_pro|
-	| Google Colab (keras-no gpu)| 48.32|Main_pro|
-	| Google Colab (keras gpu)| 43.67|Main_pro|
+<b><p>Speed Performance Table</p></b>
+| CPU | Time-consuming | Code |
+| :---:|:---:|:---: |
+| Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
+| Google Colab (pycaret)| 56.28|Main_pro|
+| Google Colab (keras-no gpu)| 48.32|Main_pro|
+| Google Colab (keras gpu)| 43.67|Main_pro|
+
 
 	- รายละเอียดโปรแกรม
 	- เอาต์พุตของโปรแกรม
