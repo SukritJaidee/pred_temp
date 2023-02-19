@@ -86,6 +86,7 @@
 	  
 ### **Thank you** 
 	- Jeffrey M. Gawrych, Senior Solutions Engineer/Meteorologist, IBM Sustainability Software for sharing IBM Weather Company Data
+	- chulalongkorn university
 
 ### Reference
 	- 
