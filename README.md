@@ -97,6 +97,28 @@
 ### **Thank you** 
 	- Jeffrey M. Gawrych, Senior Solutions Engineer/Meteorologist, IBM Sustainability Software for sharing IBM Weather Company Data
 	- Chulalongkorn university
+	
+<p align="center"></p>
+<table>
+    <thead>
+        <tr>
+            <th align="center">meteostat</th>
+            <th align="center">weatherapi</th>
+            <th align="center">IBM</th>
+	    <th align="center">TMD</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><img src="https://lh3.googleusercontent.com/mQJcv6QSjME5daNYf2M1vJMWrMw1kHPsQkA-QWXG-iS3VVIL4L6xD2S-NCpqWJbFkdg=w2400" width="50" high="50"</td>
+            <td align="center"><img src="https://lh5.googleusercontent.com/vHmVZoHAhWC_ccqP0-uPCfJuAsO9eRSuChmjmMroAmy7wETtrIHohPVJ5ECZSM1O_JI=w2400" width="50" high="50"</td>
+            <td align="center"><img src="https://lh3.googleusercontent.com/GsHUDDRy4iFPXC7spDw83Z7lHGlgGxoEul2Or9pz5NxvgbKw-jXj4HUnIAU2na3qDQk=w2400" width="50" high="50"</td>
+	    <td align="center"><img src="https://lh3.googleusercontent.com/QS1-xPUYM_6Dsk4PLS2On9KFGa_SOnIfQgyc_LDMD0Y6HHIP2hV5dCU1B3rDQrfclec=w2400" width="50" high="50"</td>
+        </tr>
+    </tbody>
+</table>
+<p></p>	
+	
 ### Reference
 	- https://dev.meteostat.net/
 	- https://www.ibm.com/products/weather-company-data-packages
