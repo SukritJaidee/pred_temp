@@ -21,7 +21,7 @@
 	- python env_test.py 
 	
 ### Source code
-<b><p>Table1 Python files </p></b>
+<b><p><ins>Table1 Python files</ins></p></b>
 | **Link** | **Note** |
 | -------- | -------- |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
