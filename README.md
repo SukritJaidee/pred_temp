@@ -42,16 +42,16 @@
 ### Program Description
 	- The output of the program consists of two files:
 	- data_ddmmyy_hhmm_data.csv: This file consists of 6 columns:
-		1. latitude
-		2. longitude 
-		3. prediction(predicted temperature)
-		4. tc (tmd forecast temperature)
-		5. temperature (ibm temperature)
+		1. latitude,
+		2. longitude,
+		3. prediction(predicted temperature),
+		4. tc (tmd forecast temperature),
+		5. temperature (ibm temperature),
 		6. datetime
-	- data_ddmmyy_hhmm_info.csv ไพล์นี้ประกอบไปด้วย 4 คอลัมน์ ได้แก่ 
-		1. datetime
-		2. start_compute(เวลาที่เริ่มต้นคำนวณ), 
-		3. end_compute (เวลาที่ใช้จนคำนวณเสร็จสิ้น)
+	- data_ddmmyy_hhmm_info.csv This file consists of 4 columns:
+		1. datetime,
+		2. start_compute(Calculation start time), 
+		3. end_compute (Time taken to complete the calculation)
 
 6. Resources
 	- My GitHub <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
