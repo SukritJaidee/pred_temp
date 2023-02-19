@@ -82,7 +82,6 @@
     </tbody>
 </table>
 <p></p>
-<p></p>
 
 ### My Resources
 - My Github: <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
