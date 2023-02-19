@@ -9,13 +9,12 @@
 		- pip install --pre pycaret (new version/developer version)
 		- pip install --pre pycaret[full] (full package developer version)
 	4. Create notebook kernel (optional) 
-		- python -m ipykernel install --user --name yourenvname --display-name "display-name"
-		
+		- python -m ipykernel install --user --name yourenvname --display-name "display-name"	
 ### Install packages	
 	- pip install -q meteostat
 	- pip install -q mercantile
 	- pip install -q mpmath
-	- pip install -q APScheduler==3.0.0 ( หากใช้ crontab ไม่จำเป็นต้อง install the library)
+	- pip install -q APScheduler==3.0.0 (There is no need to install the library when using Linux crontab.)
 	- pip install tensorflow-gpu
 3. ขั้นตอนการทดสอบการติดตั้ง environment
 	- cd  pred_temp/
