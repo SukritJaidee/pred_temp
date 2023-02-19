@@ -31,8 +31,7 @@
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v2.py">run_schedule_v2.py</a></p>| It is run on a schedule every hour using the **timedelta package**.|
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| It runs a schedule every hour using a string datetime comparison method.|	
 
-5. ข้อมูลความเร็วในการรันโมเดล
-
+### Speed performance
 	| CPU | Time-consuming | Code |
 	| :---:|:---:|:---: |
 	| Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
