@@ -52,6 +52,11 @@
 | Google Colab (keras-no gpu)| 48.32|Main_pro|
 | Google Colab (keras gpu)| 43.67|Main_pro|
 
+### Proposed method
+<p align="center"><img src="https://lh6.googleusercontent.com/crkxhHoA23xNII1z2PtwqGt39-6hP2j_XAZbQbqB9a1ree4hYwzjOUaRIghrNmxZHko=w2400"
+	  width="400" high="400" style="display: margin: 0 auto; max-width: 400px"></p>
+
+
 ### Program Description
 	- The output of the program consists of two files:
 		1. data_ddmmyy_hhmm_data.csv: This file consists of 6 columns:
