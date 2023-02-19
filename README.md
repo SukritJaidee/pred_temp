@@ -26,7 +26,7 @@
 | -------- | -------- |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py">run_schedule.py</a></p>| It is run on a schedule every hour by using the schedule package. The program is set to run in the 5th minute of every hour, for example, at 9.05 and 10.05.|	
-|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| It is run on a schedule every hour using the **BlockingScheduler** package.|	
+|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| It is run on a schedule every hour using the <ins>**BlockingScheduler**</ins> package.|	
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v2.py">run_schedule_v2.py</a></p>| It is run on a schedule every hour using the <ins>**timedelta package**</ins>.|
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| It runs a schedule every hour using a string datetime comparison method.|	
 
@@ -35,7 +35,7 @@
 | **Google colab file** | **Note** |
 |:---|:--- |
 |<p><a href="https://colab.research.google.com/drive/1hSSRyLhanIMrE4L9xIknK1uW0atAmFT_?usp=sharing">**weather_submit_v1_04025566_1250.ipynb**</a></p>|for linux crontab|
-|<p><a href="https://colab.research.google.com/drive/1njNxGtyAwKQsiRqt9ypwwqW58B_iUfGk?usp=sharing">**weather_schedule_v3_07022566_0949.ipynb**</a></p>| It is run on a schedule every hour using the **BlockingScheduler** package|
+|<p><a href="https://colab.research.google.com/drive/1njNxGtyAwKQsiRqt9ypwwqW58B_iUfGk?usp=sharing">**weather_schedule_v3_07022566_0949.ipynb**</a></p>| It is run on a schedule every hour using the <ins>**BlockingScheduler**</ins> package|
 |<p><a href="https://colab.research.google.com/drive/1Hph2GJnLzXHbnmkrJTeFBiLE65w3ygmc?usp=sharing">**weather_schedule_v2_07022566_1228.ipynb**</a></p>| It is run on a schedule every hour using the <ins>**timedelta package**</ins>.|	
 |<p><a href="https://colab.research.google.com/drive/1CroHoo--kFfY_oxd4pHTarCiaBKOcTLQ?usp=sharing">**weather_schedule_v4_07022566_2566.ipynb**</a></p>| It runs a schedule every hour using a string datetime comparison method.|	
 |<p><a href="https://colab.research.google.com/drive/18C98Jv7HjBfLt7JonwTJtRQrd2fqQVes?usp=sharing">**weather_schedule_v5_17012566_2243.ipynb**</a></p>|It is run on a schedule every hour by using the schedule package. The program is set to run in the 5th minute of every hour, for example, at 9.05 and 10.05.|
