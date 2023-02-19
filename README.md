@@ -1,6 +1,6 @@
 ## <u>The Thailand Temperature Prediction Program</u>
 ### Program installation process
-1. Create a conda environment 
+1. Install an Anaconda environment.
 	- conda create --name yourenvname python=3.8
 	- ex. conda create --name pycaret_v1 python=3.8
 2. Activate conda environment: activate environment ที่เราสร้างขึ้น
