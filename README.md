@@ -8,9 +8,10 @@
 		- pip install pycaret (stable version)
 		- pip install --pre pycaret (new version/developer version)
 		- pip install --pre pycaret[full] (full package developer version)
-4. Create notebook kernel (optional) (สร้าง notebook kernel)
-	- python -m ipykernel install --user --name yourenvname --display-name "display-name"
-2. ติดตั้ง package ที่จำเป็น
+	4. Create notebook kernel (optional) 
+		- python -m ipykernel install --user --name yourenvname --display-name "display-name"
+		
+### Install packages	
 	- pip install -q meteostat
 	- pip install -q mercantile
 	- pip install -q mpmath
