@@ -66,13 +66,29 @@
 			2. start_compute(Calculation start time), 
 			3. end_compute (Time taken to complete the calculation)
 ### Result
-<div align="center">
 | MSE Error  | Compare the values from each model |
 | ------------- | ------------- |
 | <img src="https://lh6.googleusercontent.com/9AVa0E2Prsctlfxa67_uoD3MQALGT5bF5Q_hBlr1noJ1mlKiz83Z5xHI4rQFT1FOfVo=w2400" width="400" high="300" style="display: margin: 0 auto; max-width: 400px">  | <img src="https://lh4.googleusercontent.com/rySKw7SUG6AicwbMqcFQ16FH9Nc0IYvonubmdVQN6zg4KKcoPMirUsW9fRhILRHz0o8=w2400" width="400" high="300" style="display: margin: 0 auto; max-width: 400px">  |
 | Content Cell  | Content Cell  |
-</div>
+<p align="center"></p>
 
+<table>
+    <thead>
+        <tr>
+            <th align="left">Column1</th>
+            <th align="center">Column1</th>
+            <th align="right">Column1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="left">Column1</td>
+            <td align="center">Column1</td>
+            <td align="right">Column1</td>
+        </tr>
+    </tbody>
+</table>
+<p></p>
 
 ### My Resources
 - My Github: <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
