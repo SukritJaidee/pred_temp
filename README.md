@@ -66,8 +66,11 @@
 			2. start_compute(Calculation start time), 
 			3. end_compute (Time taken to complete the calculation)
 ### Result
-<img src="https://lh6.googleusercontent.com/9AVa0E2Prsctlfxa67_uoD3MQALGT5bF5Q_hBlr1noJ1mlKiz83Z5xHI4rQFT1FOfVo=w2400" width="250" high="250" style="display: margin: 0 auto; max-width: 300px">
-<img src="https://lh4.googleusercontent.com/rySKw7SUG6AicwbMqcFQ16FH9Nc0IYvonubmdVQN6zg4KKcoPMirUsW9fRhILRHz0o8=w2400" width="250" high="250" style="display: margin: 0 auto; max-width: 300px">
+| ------------- | ------------- |
+| <img src="https://lh6.googleusercontent.com/9AVa0E2Prsctlfxa67_uoD3MQALGT5bF5Q_hBlr1noJ1mlKiz83Z5xHI4rQFT1FOfVo=w2400" width="250" high="250" style="display: margin: 0 auto; max-width: 300px">  | <img src="https://lh4.googleusercontent.com/rySKw7SUG6AicwbMqcFQ16FH9Nc0IYvonubmdVQN6zg4KKcoPMirUsW9fRhILRHz0o8=w2400" width="250" high="250" style="display: margin: 0 auto; max-width: 300px">  |
+| Content Cell  | Content Cell  |
+
+
 
 ### My Resources
 - My Github: <a href="https://github.com/SukritJaidee/pred_temp">Click here</a>
