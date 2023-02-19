@@ -68,7 +68,7 @@
 ### Result
 | MSE Error  | Compare the values from each model |
 | ------------- | ------------- |
-| <img src="https://lh6.googleusercontent.com/9AVa0E2Prsctlfxa67_uoD3MQALGT5bF5Q_hBlr1noJ1mlKiz83Z5xHI4rQFT1FOfVo=w2400" width="300" high="300" style="display: margin: 0 auto; max-width: 300px">  | <img src="https://lh4.googleusercontent.com/rySKw7SUG6AicwbMqcFQ16FH9Nc0IYvonubmdVQN6zg4KKcoPMirUsW9fRhILRHz0o8=w2400" width="300" high="300" style="display: margin: 0 auto; max-width: 300px">  |
+| <img src="https://lh6.googleusercontent.com/9AVa0E2Prsctlfxa67_uoD3MQALGT5bF5Q_hBlr1noJ1mlKiz83Z5xHI4rQFT1FOfVo=w2400" width="400" high="300" style="display: margin: 0 auto; max-width: 400px">  | <img src="https://lh4.googleusercontent.com/rySKw7SUG6AicwbMqcFQ16FH9Nc0IYvonubmdVQN6zg4KKcoPMirUsW9fRhILRHz0o8=w2400" width="400" high="300" style="display: margin: 0 auto; max-width: 400px">  |
 | Content Cell  | Content Cell  |
 
 
