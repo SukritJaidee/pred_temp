@@ -21,9 +21,9 @@
 	- python env_test.py 
 	
 ### Source code
-<b><p>Python files Table</p></b>
+<b><p>Table1 Python files </p></b>
 | **Link**      | **Note**     |
-| ------------- | -------- |
+| :-------------: | :--------: |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py">run_schedule.py</a></p>| It is run on a schedule every hour by using the schedule package. The program is set to run in the 5th minute of every hour, for example, at 9.05 and 10.05.|	
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| It is run on a schedule every hour using the **BlockingScheduler** package.|	
@@ -31,9 +31,9 @@
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| It runs a schedule every hour using a string datetime comparison method.|	
 
 ### Speed performance
-<b><p>Speed Performance Table</p></b>
+<b><p>Table2 Speed Performance </p></b>
 | **CPU** | **Time-consuming** | **Code** |
-|:---|:---:|:---: |
+|:---:|:---:|:---: |
 | Intel(R) Core(TM) i7-10750H </br> CPU@2.60GHz 2.59GHz(pycaret)|31.46|Main_pro|
 | Google Colab (pycaret)| 56.28|Main_pro|
 | Google Colab (keras-no gpu)| 48.32|Main_pro|
