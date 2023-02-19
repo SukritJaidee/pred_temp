@@ -40,15 +40,15 @@
 | Google Colab (keras gpu)| 43.67|Main_pro|
 
 ### Program Description
-	- The output of the program consists of two files:
-	- data_ddmmyy_hhmm_data.csv: This file consists of 6 columns:
+- The output of the program consists of two files:
+	- 1. data_ddmmyy_hhmm_data.csv: This file consists of 6 columns:
 		1. latitude,
 		2. longitude,
 		3. prediction(predicted temperature),
 		4. tc (tmd forecast temperature),
 		5. temperature (ibm temperature),
 		6. datetime
-	- data_ddmmyy_hhmm_info.csv This file consists of 4 columns:
+	- 2. data_ddmmyy_hhmm_info.csv This file consists of 4 columns:
 		1. datetime,
 		2. start_compute(Calculation start time), 
 		3. end_compute (Time taken to complete the calculation)
