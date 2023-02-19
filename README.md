@@ -66,6 +66,7 @@
 			2. start_compute(Calculation start time), 
 			3. end_compute (Time taken to complete the calculation)
 ### Result
+<p align="center"></p>
 <table>
     <thead>
         <tr>
@@ -80,6 +81,7 @@
         </tr>
     </tbody>
 </table>
+<p></p>
 <p></p>
 
 ### My Resources
