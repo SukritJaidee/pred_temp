@@ -23,13 +23,13 @@
 ### Source code
 <b><p>Python files Table</p></b>
 	
-| Filename     | Link      | Note     |
+|      | Link      | Note     |
 | ------------- | ------------- | -------- |
-|main_pro.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| โค้ดนี้ไม่ได้มีการใส่ schedule ให้รันทุกชั่วโมง เป็นการรันครั้งเดียว ณ เวลานั้น  |
-|run_schedule.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py">run_schedule.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ schedule package โปรแกรมถูกตั้งให้รันทุกๆชั่วโมงในนาทีที่ 5 เข่น 9.05, 10.05|	
-|run_schedule_v1.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package|	
-|run_schedule_v2.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v2.py">run_schedule_v2.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ timedelta package|	
-|run_schedule_v3.py|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้วิธีการเปรียบเทียบ string datetime|	
+|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
+|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py">run_schedule.py</a></p>| It is run on a schedule every hour by using the schedule package. The program is set to run in the 5th minute of every hour, for example, at 9.05 and 10.05.|	
+|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package|	
+|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v2.py">run_schedule_v2.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ timedelta package|	
+|<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v3.py">run_schedule_v3.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้วิธีการเปรียบเทียบ string datetime|	
 
 5. ข้อมูลความเร็วในการรันโมเดล
 
