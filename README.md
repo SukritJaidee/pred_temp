@@ -23,8 +23,8 @@
 ### Source code
 <b><p>Python files Table</p></b>
 	
-|      | Link      | Note     |
-| ------------- | ------------- | -------- |
+| Link      | Note     |
+| ------------- | -------- |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py">run_schedule.py</a></p>| It is run on a schedule every hour by using the schedule package. The program is set to run in the 5th minute of every hour, for example, at 9.05 and 10.05.|	
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| เป็นการรันแบบ schedule ทุกๆชั่วโมงโดยใข้ BlockingScheduler package|	
