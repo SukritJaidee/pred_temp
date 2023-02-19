@@ -99,7 +99,7 @@
 	- Chulalongkorn university
 	
 <p align="center"></p>
-<table>
+<table align="center">
     <thead>
         <tr>
             <th align="center">meteostat</th>
