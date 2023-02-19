@@ -3,11 +3,11 @@ import requests
 import pandas as pd
 
 #@title Open meteo api
-def open_meteo_v1(latitude, longitude, start_date, end_date, timezone):
+def open_meteo_v1(latitude, longitude, start_date, end_date):
   vars1 = "hourly=temperature_2m,relativehumidity_2m"
   vars2 = "hourly=temperature_2m,relativehumidity_2m,shortwave_radiation,direct_radiation,diffuse_radiation,direct_normal_irradiance,terrestrial_radiation,shortwave_radiation_instant,direct_radiation_instant,diffuse_radiation_instant,direct_normal_irradiance_instant,terrestrial_radiation_instant"
   vars3 = "hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,apparent_temperature,rain,cloudcover,cloudcover_low,cloudcover_mid,cloudcover_high,shortwave_radiation,direct_radiation,diffuse_radiation,direct_normal_irradiance,windspeed_10m,windspeed_100m,winddirection_10m,winddirection_100m,windgusts_10m,soil_temperature_0_to_7cm,soil_temperature_7_to_28cm"
-
+  timezone = "Asia/Bangkok"
   # url = f"https://archive-api.open-meteo.com/v1/era5?latitude={latitude}&longitude={longitude}&start_date={start_date}&end_date={end_date}&timezone={timezone}&{vars1}"
   # url = f"https://archive-api.open-meteo.com/v1/era5?latitude={latitude}&longitude={longitude}&start_date={start_date}&end_date={end_date}&timezone={timezone}&{vars}&models=best_match"
   url = f"https://archive-api.open-meteo.com/v1/archive?latitude={latitude}&longitude={longitude}&start_date={start_date}&end_date={end_date}&timezone={timezone}&{vars3}&models=best_match"
