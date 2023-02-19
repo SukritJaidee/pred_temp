@@ -42,8 +42,8 @@ def open_meteo_v1(latitude, longitude, start_date, end_date):
   wdirection_10m= data['hourly']['winddirection_10m']
 #   wdirection_100m= data['hourly']['winddirection_100m']
   wgusts_10m= data['hourly']['windgusts_10m']
-  soil_temp_0_to_7cm= data['hourly']['soil_temperature_0_to_7cm']
-  soil_temp_7_to_28cm= data['hourly']['soil_temperature_7_to_28cm']
+#   soil_temp_0_to_7cm= data['hourly']['soil_temperature_0_to_7cm']
+#   soil_temp_7_to_28cm= data['hourly']['soil_temperature_7_to_28cm']
 
   info_df = pd.DataFrame({'lat':[lat], 'lon':[lon], 'elevation':[elevation], })
   df = pd.DataFrame({'time':time_list, 'temp_2m':temp_2m_list, 'rh_2m':rh_2m_list,
