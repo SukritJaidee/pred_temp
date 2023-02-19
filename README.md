@@ -54,7 +54,7 @@
 
 ### Proposed method
 <p align="center"><img src="https://lh6.googleusercontent.com/crkxhHoA23xNII1z2PtwqGt39-6hP2j_XAZbQbqB9a1ree4hYwzjOUaRIghrNmxZHko=w2400"
-	  width="400" high="400" style="display: margin: 0 auto; max-width: 400px"></p>
+	  width="600" high="400" style="display: margin: 0 auto; max-width: 600px"></p>
 
 
 ### Program Description
