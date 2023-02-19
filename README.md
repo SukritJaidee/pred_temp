@@ -22,8 +22,8 @@
 	
 ### Source code
 <b><p>Table1 Python files </p></b>
-| **Link**      | **Note**     |
-| :-------------: | :--------: |
+| **Link** | **Note** |
+| -------- | -------- |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/main_pro.py">main_pro.py</a></p>| for linux crontab  |
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule.py">run_schedule.py</a></p>| It is run on a schedule every hour by using the schedule package. The program is set to run in the 5th minute of every hour, for example, at 9.05 and 10.05.|	
 |<p><a href="https://github.com/SukritJaidee/pred_temp/blob/main/run_schedule_v1.py">run_schedule_v1.py</a></p>| It is run on a schedule every hour using the **BlockingScheduler** package.|	
@@ -39,11 +39,9 @@
 | Google Colab (keras-no gpu)| 48.32|Main_pro|
 | Google Colab (keras gpu)| 43.67|Main_pro|
 
-
-	- รายละเอียดโปรแกรม
-	- เอาต์พุตของโปรแกรม
-	- ประกอบไปด้วย 2 ไพล์ได้แก่ 
-	- data_ddmmyy_hhmm_data.csv ไพล์นี้ประกอบไปด้วย 6 คอลัมน์ ได้แก่ 
+### Program Description
+	- The output of the program consists of two files:
+	- data_ddmmyy_hhmm_data.csv: This file consists of 6 columns:
 		1. latitude
 		2. longitude 
 		3. prediction(predicted temperature)
