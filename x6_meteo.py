@@ -7,10 +7,13 @@ def open_meteo_v1(latitude, longitude, start_date, end_date):
   vars1 = "hourly=temperature_2m,relativehumidity_2m"
   vars2 = "hourly=temperature_2m,relativehumidity_2m,shortwave_radiation,direct_radiation,diffuse_radiation,direct_normal_irradiance,terrestrial_radiation,shortwave_radiation_instant,direct_radiation_instant,diffuse_radiation_instant,direct_normal_irradiance_instant,terrestrial_radiation_instant"
   vars3 = "hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,apparent_temperature,rain,cloudcover,cloudcover_low,cloudcover_mid,cloudcover_high,shortwave_radiation,direct_radiation,diffuse_radiation,direct_normal_irradiance,windspeed_10m,windspeed_100m,winddirection_10m,winddirection_100m,windgusts_10m,soil_temperature_0_to_7cm,soil_temperature_7_to_28cm"
+  vars4 = "hourly=temperature_2m,relativehumidity_2m,dewpoint_2m,apparent_temperature,rain,cloudcover,cloudcover_low,cloudcover_mid,cloudcover_high,shortwave_radiation,direct_radiation,diffuse_radiation,direct_normal_irradiance,windspeed_10m,winddirection_10m,windgusts_10m"
+
   timezone = "Asia/Bangkok"
+  url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&timezone={timezone}&{vars4}"
   # url = f"https://archive-api.open-meteo.com/v1/era5?latitude={latitude}&longitude={longitude}&start_date={start_date}&end_date={end_date}&timezone={timezone}&{vars1}"
   # url = f"https://archive-api.open-meteo.com/v1/era5?latitude={latitude}&longitude={longitude}&start_date={start_date}&end_date={end_date}&timezone={timezone}&{vars}&models=best_match"
-  url = f"https://archive-api.open-meteo.com/v1/archive?latitude={latitude}&longitude={longitude}&start_date={start_date}&end_date={end_date}&timezone={timezone}&{vars3}&models=best_match"
+  # url = f"https://archive-api.open-meteo.com/v1/archive?latitude={latitude}&longitude={longitude}&start_date={start_date}&end_date={end_date}&timezone={timezone}&{vars3}&models=best_match"
 
   payload, headers={}, {}
   response = requests.request("GET", url, headers=headers, data=payload)
@@ -35,9 +38,9 @@ def open_meteo_v1(latitude, longitude, start_date, end_date):
   diffuse_rad= data['hourly']['diffuse_radiation']
   direct_normal_irr= data['hourly']['direct_normal_irradiance']
   wspeed_10m= data['hourly']['windspeed_10m']
-  wspeed_100m= data['hourly']['windspeed_100m']
+#   wspeed_100m= data['hourly']['windspeed_100m']
   wdirection_10m= data['hourly']['winddirection_10m']
-  wdirection_100m= data['hourly']['winddirection_100m']
+#   wdirection_100m= data['hourly']['winddirection_100m']
   wgusts_10m= data['hourly']['windgusts_10m']
   soil_temp_0_to_7cm= data['hourly']['soil_temperature_0_to_7cm']
   soil_temp_7_to_28cm= data['hourly']['soil_temperature_7_to_28cm']
@@ -49,8 +52,11 @@ def open_meteo_v1(latitude, longitude, start_date, end_date):
                      'cloudcover_low':cloudcover_low, 'cloudcover_mid':cloudcover_mid,'cloudcover_high':cloudcover_high,
                      'shortwave_rad':shortwave_rad, 'direct_rad':direct_rad, 'diffuse_rad':diffuse_rad, 'direct_normal_irr':direct_normal_irr,
                      'wspeed_10m':wspeed_10m,
-                     'wspeed_100m':wspeed_100m, 'wdirection_10m':wdirection_10m, 'wdirection_100m':wdirection_100m,
-                     'wgusts_10m':wgusts_10m, 'soil_temp_0_to_7cm':soil_temp_0_to_7cm, 'soil_temp_7_to_28cm':soil_temp_7_to_28cm,
+#                      'wspeed_100m':wspeed_100m,
+                     'wdirection_10m':wdirection_10m,
+#                      'wdirection_100m':wdirection_100m,
+                     'wgusts_10m':wgusts_10m,
+#                      'soil_temp_0_to_7cm':soil_temp_0_to_7cm, 'soil_temp_7_to_28cm':soil_temp_7_to_28cm,
                      })
   df['lat'], df['lon'], df['elevation']  = latitude, longitude, elevation
   df['lat_res'], df['lon_res']  = lat, lon
