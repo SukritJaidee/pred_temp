@@ -16,7 +16,7 @@ DATE_MAX = pd.to_datetime(now_datetime+timedelta(end_date)).strftime(format_date
 def weather_history(lat, lon, DATE_MIN, DATE_MAX):
   #DATE_MIN, DATE_MAX = "2021-12-01", "2022-01-02"
   DATES = pd.date_range(start=DATE_MIN, end=DATE_MAX)
-  API_KEY = "d0a9120b510140b6814173206221912"
+  API_KEY = "00045b3f7ee04112ae3170131231902"
   times, temp_cs, wind_mphs, wind_kphs = [], [], [], []
   wind_degrees, wind_dirs, pressure_mbs = [], [], []
   pressure_ins, precip_mms, precip_ins, humiditys = [], [], [], []
