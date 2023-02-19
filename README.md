@@ -67,7 +67,7 @@
 			3. end_compute (Time taken to complete the calculation)
 ### Result
 <p align="center"></p>
-<table>
+<table align="center">
     <thead>
         <tr>
             <th align="center">MSE Error</th>
