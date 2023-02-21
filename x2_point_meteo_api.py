@@ -92,7 +92,7 @@ def x2_api(q1, start, end):
     x2["minute"] = x2['datetime'].astype('datetime64[ns]').apply(lambda x: x.minute)
     x2.index = x2['datetime']
     x2.drop(['datetime'], axis=1, inplace=True)
-    x2.rename(columns={'temp':'temp_x2'}, inplace=True)
+#     x2.rename(columns={'temp':'temp_x2'}, inplace=True)
     # x2.to_csv(save_x2_filename+'.csv' ,encoding='utf-8-sig')
     # print(x2.shape); display(x2.head(1)); display(x2.tail(1));
     # print('x2', end = ' '); print(x2.index[0], end = ' '); print(x2.index[-1]);
